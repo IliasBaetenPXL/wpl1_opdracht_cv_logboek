@@ -11,9 +11,9 @@
 <body>
     <header class="profiel_header">
 
-        <div id="myNav" class="overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="overlay-content">
+        <div id="myNav" class="schuif">
+            <a href="javascript:void(0)" class="Btn_sluiten" onclick="closeNav()">&times;</a>
+            <div class="schuif-content">
                 <a href="#">cv</a>
                 <a href="#">logboek</a>
                 <a href="#">competenties</a>
@@ -24,11 +24,11 @@
         </div>
 
 
-        <span class= 'streepjes' style="font-size:50px;cursor:pointer;color:white; float: right" onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
+        <span class= 'streepjes' style=" float: right" onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
 
         <script>
             function openNav() {
-                document.getElementById("myNav").style.width = "100%";
+                document.getElementById("myNav").style.width = "40%";
             }
 
             function closeNav() {
