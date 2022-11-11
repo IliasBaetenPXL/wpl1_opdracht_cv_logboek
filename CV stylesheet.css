@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik:wght@300;400;600;800&family=Russo+One&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #383838;
+    background-color: lightgray;
+    font-family: 'Rubik', sans-serif;
+    grid-gap: 1rem;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    margin: 1rem;
+    grid-gap: 1rem;
+}
+
+ul{
+    list-style-type: none;
+}
+.lijn_info
+{
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+.lijn_algemeen
+{
+    border: 5px solid transparent;
+    border-radius: 5px;
+}
+
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: green;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.profiel_header
+{
+    background-image: url("Board-Black-Line-Textuur-Achtergrond-Hout.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 35px;
+    position: relative;
+    text-align: center;
+
+}
+
+.profiel_foto
+{
+    float: left;
+    overflow: hidden;
+
+
+
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    border-radius: 50%;
+
+}
+.profiel_header .naam
+{
+    text-shadow: 4px 4px 8px #383838;
+    color: lightgray;
+    text-align: center;
+    padding-left: 20px;
+    font-size: 60px;
+    font-family: 'Russo One', sans-serif;
+
+}
+
+
+.persoonlijke_info
+{
+
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Russo One', sans-serif;
+}
+
+.links {
+    background-color: white;
+    padding: 1rem;
+    line-height: 2;
+    box-shadow: 2px 2px 10px grey;
+}
+
+
+.rechts{
+    background-color: white;
+    padding: 1rem;
+    line-height: 2;
+    box-shadow: 2px 2px 10px grey;
+}
+
+ul.competenties_list{
+    list-style-type: square;
+
+}
+
+.studies{
+    line-height: 20px;
+
+
+}
+
+.studies h3, h5{
+    font-family: 'Rubik', sans-serif;
+}
+
+.diploma {
+    background-color: red;
+    color: white;
+    padding: 0.2rem ;
+    border-radius: 3px;
+}
+
+.heden{
+    background-color: red;
+    color: white;
+    padding: 0.2rem ;
+    border-radius: 3px;
+}
+.datum{
+    color: forestgreen;
+}
+.werk_ervaring{
+    line-height: 20px;
+}
+.werk_ervaring h3, h5{
+   font-family: 'Rubik', sans-serif;;
+}
+
+.werk_ervaring ul{
+margin: 2rem 0;}
+
+.footer
+{
+
+    background-image: url("Board-Black-Line-Textuur-Achtergrond-Hout.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 3rem 0;
+    color: lightgray;
+    text-align: center;
+    line-height: 1.5;
+}
+footer a {
+    font-family: Arial;
+    color: white;}
