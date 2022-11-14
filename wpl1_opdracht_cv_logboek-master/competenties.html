@@ -7,33 +7,35 @@
        initial-scale=1.0">
   <script src="https://kit.fontawesome.com/172fe04196.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="competenties_style.css">
+  <script defer src="cv_menu.js"></script>
 </head>
 <body>
-<header class="nav_box">
+<header class="profiel_header">
+
+
   <div id="myNav" class="schuif">
-    <a href="javascript:void(0)" class="Btn_sluiten" onclick="closeNav()">&times;</a>
+
+    <a id="kruis_sluiten" class="Btn_sluiten" ><i class="fa-sharp fa-solid fa-xmark"></i></a>
+
     <div class="schuif-content">
-      <a href="CV%20html.html">cv</a>
+
+      <a href="CV%20html.html">CV</a>
+
       <a href="logboek.html">logboek</a>
+
       <a href="ontwikelings_gesprekken.html">ontwikelingsgesprekken</a>
+
       <a href="opdrachten.html">opdrachten</a>
+
       <a href="refletie.html">reflectie</a>
     </div>
   </div>
 
 
-  <span class= 'streepjes' style=" float: right" onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
+
+  <span id="streepjes-icon" class="streepjes"  ><i class="fa-solid fa-bars"></i></span>
 
 
-  <script>
-    function openNav() {
-      document.getElementById("myNav").style.width = "100%";
-    }
-
-    function closeNav() {
-      document.getElementById("myNav").style.width = "0%";
-    }
-  </script>
 
 </header>
 </body>

@@ -7,38 +7,35 @@
     <title>curriculum vitae Ilias Baeten</title>
     <link rel="stylesheet" href="CV stylesheet.css">
     <script src="https://kit.fontawesome.com/172fe04196.js" crossorigin="anonymous"></script>
+    <script defer src="cv_menu.js"></script>
 </head>
 
-
-
-
 <body>
+
     <header class="profiel_header">
 
+
         <div id="myNav" class="schuif">
-            <a href="javascript:void(0)" class="Btn_sluiten" onclick="closeNav()">&times;</a>
+
+            <a id="kruis_sluiten" class="Btn_sluiten" ><i class="fa-sharp fa-solid fa-xmark"></i></a>
+
             <div class="schuif-content">
+
                 <a href="logboek.html">logboek</a>
+
                 <a href="competenties.html">competenties</a>
+
                 <a href="ontwikelings_gesprekken.html">ontwikelingsgesprekken</a>
+
                 <a href="opdrachten.html">opdrachten</a>
+
                 <a href="refletie.html">reflectie</a>
+
             </div>
         </div>
 
 
-
-        <span class= 'streepjes' style=" float: right" onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
-
-        <script>
-            function openNav() {
-                document.getElementById("myNav").style.width = "100%";
-            }
-
-            function closeNav() {
-                document.getElementById("myNav").style.width = "0%";
-            }
-        </script>
+        <span id="streepjes-icon" class="streepjes"  ><i class="fa-solid fa-bars"></i></span>
 
 
 
@@ -109,11 +106,11 @@
             <h1><i class="fa-solid fa-graduation-cap"> </i> studies</h1>
 
                 <ul>
-                    <li><h3>Sociale wetenschappen – Inspirocollege Houthalen</h3> </li>
+                    <li><h3>Sociale wetenschappen – Inspirocollege Houthalen <span class="diploma">Diploma behaald</span> </h3> </li>
                     <li><h5 class="datum"> 2013 – 2019</h5></li>
 
                 </ul>
-                 <p><span class="diploma">Diploma behaald</span> </p>
+                 <p></p>
 
                 <ul>
                     <li><h3>Bachelor Toegepaste informatica – PXL hasselt</h3></li>
