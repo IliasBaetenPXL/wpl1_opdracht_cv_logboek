@@ -77,14 +77,14 @@
         padding: 8px;
         text-decoration: none;
         font-size: 36px;
-        color: yellow;
+        color: lawngreen;
         display: block;
         transition: 0.2s;
     }
 
     .schuif a:hover, .overlay a:focus
     {
-        color: #f1f1f1;
+        color: purple;
     }
 
    .schuif .Btn_sluiten
@@ -115,7 +115,7 @@
     {
         font-size:50px;
         cursor:pointer;
-        color:yellow;
+        color:lawngreen;
         float: right;
     }
 
@@ -132,7 +132,7 @@
     }
 
     .profiel_foto:hover{
-        background: yellow;
+        background: lawngreen;
     }
 
 
@@ -210,7 +210,7 @@
 
     .heden
     {
-        background-color: red;
+        background-color: lawngreen;
         color: white;
         padding: 0.2rem ;
         border-radius: 3px;
