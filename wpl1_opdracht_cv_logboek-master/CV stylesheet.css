@@ -212,7 +212,7 @@
 
     .heden
     {
-        background-color: lawngreen;
+        background-color: red;
         color: white;
         padding: 0.2rem ;
         border-radius: 3px;
@@ -259,4 +259,58 @@
     {
         font-family: 'Rubik', sans-serif;
         color: white;
+    }
+
+
+    @media all and (max-width: 1000px) and ( min-width: 550px) {
+        body{
+            color: green;
+        }
+    }
+
+
+
+
+    @media all and (max-width: 550px){
+        body{
+
+        }
+
+        .streepjes {
+            display: flex;
+            font-size: 50px;
+            cursor: pointer;
+            color: lawngreen;
+            /* float: right; */
+        }
+
+        .foto {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            align-items: center;
+            /* justify-content: center; */
+            /* align-content: center; */
+        }
+        .profiel_header {
+       display: flex;
+       flex-direction: column;
+       /* align-content: flex-start; */
+      }
+        .profiel_header .naam {
+            text-shadow: 4px 4px 8px #383838;
+            color: lightgray;
+            text-align: center;
+            padding-left: 0px;
+            font-size: 60px;
+            font-family: 'Russo One', sans-serif;
+        }
+        .profiel_foto {
+            float: left;
+            overflow: hidden;
+            width: 65%;
+            height: 65%;;
+            border: 5px solid black;
+            border-radius: 50%;
+        }
     }
