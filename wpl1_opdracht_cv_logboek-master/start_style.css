@@ -1,0 +1,64 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    font-size: 12px;
+    color: lightgray;
+
+}
+
+.welkom{
+
+    background-image: url("Board-Black-Line-Textuur-Achtergrond-Hout.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+
+}
+.welkom h1{
+
+    font-size: 120px;
+    font-family: 'Cookie', cursive;
+    line-height: 1.2px;
+    border: lawngreen 3px solid;
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin-top: 70px;
+    text-shadow: 4px 4px black;
+
+}
+
+.welkom .link{
+
+    font-size: 18px;
+    color:black;
+   background: lawngreen;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+
+.welkom .link:hover{
+
+    background: purple;
+    color: white;
+
+}
