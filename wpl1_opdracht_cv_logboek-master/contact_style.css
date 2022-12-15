@@ -29,7 +29,9 @@ body
 .navbalk{
     display: flex;
     align-content: center;
-    justify-content: space-between;
+
+    justify-content: space-evenly;
+
     padding: 35px;
     padding-left: 8%;
     padding-right: 8%;
@@ -59,18 +61,3 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
-.contact
-{
-    text-decoration:none;
-    background-color: gold;
-    color: black;
-    border: 3px solid transparent;
-    font-weight: bold;
-    padding: 10px 25px;
-    border-radius: 20px;
-    transition: transform .4s;
-}
-.contact:hover{
-    transform: scale(1.2);
-
-}

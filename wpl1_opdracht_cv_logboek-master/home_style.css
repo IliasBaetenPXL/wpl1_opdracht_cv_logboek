@@ -109,7 +109,7 @@ nav ul li a:hover{
     margin-left: 10rem;
 }
 
-.rug_foto{
+.over_mij_foto{
     width: 100%;
     max-width: 400px;
     height: auto;
@@ -141,17 +141,20 @@ nav ul li a:hover{
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
+
 }
 
 .kolom{
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
+
 }
 .kolom img{
     margin-top: 9px;
     vertical-align: middle;
     width: 100%;
+
 }
 
 
