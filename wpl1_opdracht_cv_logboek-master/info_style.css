@@ -18,7 +18,6 @@ body
     font-family: 'Rubik', sans-serif;
     grid-gap: 1rem;
 
-
 }
 
 .header{
@@ -73,4 +72,80 @@ nav ul li a:hover{
 .contact:hover{
     transform: scale(1.2);
 
+}
+
+.span{
+    color: gold;
+}
+
+.tietel{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    margin: 5px 0px 20px;
+    font-size: 90px;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+
+.richting{
+    margin-top: -30rem;
+    margin-bottom: 10rem;
+    margin-left: 7rem;
+}
+
+.program_foto{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
+}
+.richting_tekst{
+    width: 640px;
+}
+
+.deze_richting {
+    width: 1100px;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.werk{
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+    margin-left: 45rem;
+}
+
+.werk_tekst{
+    width: 640px;
+}
+
+.werk_en_photo {
+    width: 1100px;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.footer
+{
+    margin-top: 6rem;
+    background-image: url("fotos en achtergronden/Board-Black-Line-Textuur-Achtergrond-Hout.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 3rem 0;
+    color: lightgray;
+    text-align: center;
+    line-height: 1.5;
+}
+
+footer a
+{
+    font-family: 'Rubik', sans-serif;
+    color: white;
 }
