@@ -93,3 +93,12 @@ footer a
     font-family: 'Rubik', sans-serif;
     color: white;
 }
+
+.titel{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    margin: 5px 0px 20px;
+    font-size: 70px;
+    font-family: 'Russo One', sans-serif;
+}

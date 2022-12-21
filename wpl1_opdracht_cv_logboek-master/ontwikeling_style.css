@@ -83,52 +83,28 @@ nav ul li a:hover{
     top: 20%;
     left: 45%;
     margin: 5px 0px 20px;
-    font-size: 90px;
+    font-size: 70px;
     font-family: 'Russo One', sans-serif;
 }
 
 
 
-.richting{
-    margin-top: -30rem;
-    margin-bottom: 10rem;
-    margin-left: 7rem;
-}
 
-.program_foto{
-    width: 100%;
-    max-width: 400px;
-    height: auto;
 
-}
-.richting_tekst{
-    width: 640px;
-}
 
-.deze_richting {
-    width: 1100px;
-    max-width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.werk{
-    margin-top: 15rem;
-    margin-bottom: 15rem;
-    margin-left: 45rem;
-}
 
-.werk_tekst{
-    width: 640px;
-}
 
-.werk_en_photo {
-    width: 1100px;
-    max-width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
