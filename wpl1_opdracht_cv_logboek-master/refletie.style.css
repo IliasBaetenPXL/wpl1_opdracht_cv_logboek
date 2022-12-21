@@ -74,3 +74,21 @@ nav ul li a:hover{
     transform: scale(1.2);
 
 }
+/*footer text plus afbeelding met back to top knop */
+.footer
+{
+    margin-top: 6rem;
+    background-image: url("fotos en achtergronden/Board-Black-Line-Textuur-Achtergrond-Hout.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 3rem 0;
+    color: lightgray;
+    text-align: center;
+    line-height: 1.5;
+}
+
+footer a
+{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}

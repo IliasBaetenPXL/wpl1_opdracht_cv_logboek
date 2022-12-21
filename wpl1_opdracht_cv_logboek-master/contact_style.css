@@ -124,6 +124,13 @@ input[type=submit]:hover {
     clear: both;
 }
 
+.contact_foto{
+    width: 500px;
+    height: auto;
+    float: left;
+    margin-left:17rem ;
+    margin-top: 2rem;
+}
 
 
 
