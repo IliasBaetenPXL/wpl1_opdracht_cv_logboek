@@ -16,7 +16,10 @@ body
     grid-gap: 1rem;
 }
 /* header met navigatiebalk*/
-
+.klein_naam{
+    text-decoration: none;
+    color: white;
+}
 .header{
     height: 100vh;
     width: 100%;
@@ -30,9 +33,7 @@ body
     padding-right: 8%;
 }
 
-.klein_naam{
-    color: white;
-}
+
 
 span{
     color: gold;

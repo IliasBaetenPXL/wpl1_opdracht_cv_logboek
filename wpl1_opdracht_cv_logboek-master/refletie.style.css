@@ -35,13 +35,13 @@ body
     padding-right: 8%;
 }
 .klein_naam{
-    list-style: none;
+    text-decoration: none;
     color: white;
-
 }
 span{
     color: gold;
 }
+
 nav ul li{
     list-style-type: none;
     display: inline-block;
