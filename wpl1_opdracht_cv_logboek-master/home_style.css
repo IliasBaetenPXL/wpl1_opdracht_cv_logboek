@@ -25,13 +25,10 @@ body
     color: white;
 }
 .header{
-    height: 100vh;
+    height: 900px;
     width: 100%;
-    background-image:url("fotos en achtergronden/achtergrond_ptshp.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+    background:url("fotos en achtergronden/achtergrond_ptshp.jpg") no-repeat center center/cover;
+    z-index:-5;
 }
 .navbalk{
     display: flex;
@@ -178,7 +175,97 @@ footer a
 }
 
 
-@media screen and (max-height: 900px){
+@media all and (max-width: 1100px) and ( min-width: 900px) {
+    .header{
+        height: 900px;
+        width: 100%;
+        background:url("fotos en achtergronden/45105807_1097403127085519_5292143846115770368_n.jpg") no-repeat center center/cover;
+    }
+    .over_mij_foto{
+       margin-top: 3.5rem;
+        padding-right: 1rem;
+    }
 
 
+
+    /*mijn fotos grid*/
+
+
+    .mijn_foto{
+        text-align: center;
+        padding-bottom: 4rem;
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .foto_grid{
+        margin-left: 10rem;
+        flex-wrap:  wrap;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+
+    }
+
+    .kolom{
+        flex: 30%;
+        max-width: 30%;
+        padding: 0 4px;
+
+    }
+    .kolom img{
+        margin-top: 9px;
+        vertical-align: middle;
+        width: 100%;
+
+    }
+
+
+}
+
+@media all and (max-width: 1100px) and ( min-width: 900px) {
+    .header{
+        height: 900px;
+        width: 100%;
+        background:url("fotos en achtergronden/45105807_1097403127085519_5292143846115770368_n.jpg") no-repeat center center/cover;
+    }
+    .introductie{
+margin-top: -18rem;
+    }
+    .wie_ben{
+        width: 640px;
+        font-size: large;
+    }
+
+    /*mijn fotos grid*/
+
+
+    .mijn_foto{
+        text-align: center;
+        padding-bottom: 4rem;
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .foto_grid{
+        margin-left: 10rem;
+        flex-wrap:  wrap;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+
+    }
+
+    .kolom{
+        flex: 30%;
+        max-width: 30%;
+        padding: 0 4px;
+
+    }
+    .kolom img{
+        margin-top: 9px;
+        vertical-align: middle;
+        width: 100%;
+
+    }
 }
