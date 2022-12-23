@@ -113,12 +113,13 @@ nav ul li a:hover{
 
 }
 .wie_ben{
-    width: 640px;
+    width: 650px;
+    margin-left: 3rem   ;
 }
 
 .inleiding {
-    width: 1100px;
-    max-width: 90%;
+    width: 1000px;
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -175,7 +176,7 @@ footer a
 }
 
 
-@media all and (max-width: 1100px) and ( min-width: 900px) {
+@media all and (max-width: 1200px) and ( min-width: 900px) {
     .header{
         height: 900px;
         width: 100%;
@@ -186,16 +187,15 @@ footer a
         padding-right: 1rem;
     }
 
-
+    .introductie{
+        top: 30%;
+    }
 
     /*mijn fotos grid*/
 
 
     .mijn_foto{
-        text-align: center;
-        padding-bottom: 4rem;
-        font-size: large;
-        font-weight: bold;
+       font-size:30px;
     }
 
     .foto_grid{
@@ -221,16 +221,41 @@ footer a
     }
 
 
+    .over_mij{
+        margin-top: 3rem;
+        margin-bottom: 10rem;
+        margin-left: 10rem;
+    }
+
+    .over_mij_foto{
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+        margin-bottom: 4rem;
+
+    }
+    .wie_ben{
+        width: 800px;
+    }
+
+    .inleiding {
+        flex-direction: column;
+        width: 1100px;
+        max-width: 90%;
+
+    }
+
+
 }
 
-@media all and (max-width: 1100px) and ( min-width: 900px) {
+@media all and (max-width: 900px) {
     .header{
         height: 900px;
         width: 100%;
         background:url("fotos en achtergronden/45105807_1097403127085519_5292143846115770368_n.jpg") no-repeat center center/cover;
     }
     .introductie{
-margin-top: -18rem;
+    top: 20%;
     }
     .wie_ben{
         width: 640px;

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik:wght@300;400;600;800&family=Russo+One&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,8 +8,7 @@
 }
 
 
-body
-{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,13 +18,17 @@ body
     grid-gap: 1rem;
 
 }
+
 .klein_naam{
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
+
 .header{
-    height: 100vh;
+    height: 900px;
     width: 100%;
+    background:url("fotos en achtergronden/achtergrond_ptshp.jpg") no-repeat center center/cover;
+    z-index:-5;
 
 }
 .navbalk{
@@ -40,16 +43,18 @@ body
 span{
     color: gold;
 }
-
-nav a{
+nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
+}
+
+nav ul li a{
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
-nav a:hover{
+nav ul li a:hover{
 
     color: gold;
     transition: .4s;
@@ -72,64 +77,69 @@ nav a:hover{
 
 }
 
-.span{
-    color: gold;
-}
-
-.titel{
-    position: absolute;
-    top: 20%;
-    left: 45%;
+.titel {
+    margin: auto;
+    text-align: center;
     font-size: 90px;
     font-family: 'Russo One', sans-serif;
+    padding-bottom: 20rem;
+    padding-top: 10rem;
+
 }
 
-.richting{
+.richting {
 
     margin-bottom: 10rem;
     margin-left: 7rem;
 }
 
-.program_foto{
+.program_foto {
     width: 100%;
     max-width: 400px;
     height: auto;
 
 }
-.richting_tekst{
+
+.richting_tekst {
     width: 640px;
 }
 
 .deze_richting {
-    width: 1100px;
-    max-width: 90%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 5rem;
 }
 
-.werk{
+.werk_photo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
+}
+
+.werk {
     margin-top: 15rem;
     margin-bottom: 15rem;
-    margin-left: 45rem;
+    margin-right: 7rem;
+
 }
 
-.werk_tekst{
+.werk_tekst {
     width: 640px;
 }
 
 .werk_en_photo {
-    width: 1100px;
-    max-width: 90%;
+
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 5rem;
+
 }
 
 
-
-.footer
-{
+.footer {
     margin-top: 6rem;
     background-image: url("fotos en achtergronden/Board-Black-Line-Textuur-Achtergrond-Hout.jpg");
     background-size: cover;
@@ -140,81 +150,79 @@ nav a:hover{
     line-height: 1.5;
 }
 
-footer a
-{
+footer a {
     font-family: 'Rubik', sans-serif;
     color: white;
 }
 
 
+@media all and (max-width: 1200px) {
 
 
-@media all and (max-width: 1100px) and ( min-width: 900px) {
-
-    .deze_richting{
-        margin-top: -50rem;
-    }
-
-    .program_foto{
+    .program_foto {
         margin-right: 2rem;
     }
-    .werk{
+
+    .werk {
         margin-left: 4rem;
     }
 
+    .deze_richting {
+        flex-direction: column;
 
 
-
-
-
-
-    .hamb
-    {
-        height: 100%;
-        width: 0;
-
-        z-index: 1;
-        top: 0;
-        left: 0;
-
-        background-color: black;
-        opacity: 0.8;
-        font-weight: bolder;
-        transition: 0.2s;
-        position: fixed;
-        overflow-x: hidden;
     }
 
-    .nav-content    {
-        position: relative;
-        text-align: center;
-        top: 25%;
-        margin-top: 30px;
+
+    .program_foto {
+
         width: 100%;
-
+        max-width: 900px;
+        height: auto;
+        margin-bottom: 4rem;
     }
 
-    .hamb a
-    {
-        padding: 8px;
-        text-decoration: none;
+    .richting {
+
+        margin-bottom: 10rem;
+        margin-left: 5rem;
+    }
+
+    .richting_tekst {
+        width: 800px;
         font-size: 25px;
-        color: gold;
-        display: block;
-        transition: 0.2s;
     }
 
-    .hamb a:hover, .overlay a:focus
-    {
-        color: red;
+
+    .werk_photo {
+        width: 100%;
+        max-width: 900px;
+        height: auto;
+        margin-bottom: 4rem;
+
     }
 
-    .hamb .Btn_sluiten
-    {
-        position: absolute;
-        top: 20px;
-        right: 45px;
-        font-size: 40px;
-        opacity: 100%;
+
+    .werk {
+        margin-top: 15rem;
+        margin-bottom: 15rem;
+
     }
+
+    .werk_tekst {
+        width: 800px;
+        font-size: 25px;
+
+
+    }
+
+    .werk_en_photo {
+        flex-direction: column-reverse;
+
+
+    }
+
+
 }
+
+
