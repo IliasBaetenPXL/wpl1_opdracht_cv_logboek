@@ -109,7 +109,17 @@ header{
     padding-top: 20rem;
 
 }
-.ontwikeling {
+
+
+
+
+
+
+
+
+
+
+.competenties {
     margin-bottom: 10rem;
     margin-left: 7rem;
 }
@@ -121,12 +131,11 @@ header{
 
 }
 
-.ontwikeling_tekst {
+.competenties_tekst {
     width: 640px;
 }
 
-.ontwikeling_box{
-
+.competentie_links {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -135,25 +144,23 @@ header{
 
 }
 
+.competentie_rechts {
 
-
-
-
-
-.kyss_file{
-    text-decoration:none;
-    background-color: red;
-    color: white;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-size: 20px;
-    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5rem;
+    margin: 7rem;
 
 }
 
+.competenties_titel{
+    margin-bottom: 2rem;
+}
 
-.footer
-{
+
+
+.footer {
     margin-top: 6rem;
     background-image: url("fotos en achtergronden/Board-Black-Line-Textuur-Achtergrond-Hout.jpg");
     background-size: cover;
@@ -164,11 +171,19 @@ header{
     line-height: 1.5;
 }
 
-footer a
-{
+footer a {
     font-family: 'Rubik', sans-serif;
     color: white;
 }
+
+
+
+
+
+
+
+
+
 
 @media all and (max-width: 1200px) {
     header{
@@ -185,12 +200,14 @@ footer a
 
     }
 
+
     /*hamburger menu*/
-    .logo {
+
+
+    .logo{
         display: none;
     }
-
-    .logo2 {
+    .logo2{
         display: block;
         width: auto;
         height: 100px;
@@ -265,7 +282,8 @@ footer a
 
 
 
-    .ontwikeling_box {
+
+    .competentie_links {
         flex-direction: column;
     }
 
@@ -279,17 +297,24 @@ footer a
         margin-right: 2rem;
     }
 
-    .ontwikeling {
+    .competentie {
         margin-top: 15rem;
         margin-bottom: 15rem;
         margin-left: 4rem;
     }
 
-    .ontwikeling_tekst {
+    .competenties_tekst {
         width: 800px;
         font-size: 25px;
     }
 
+
+
+    .competentie_rechts{
+        flex-direction: column-reverse;
+
+
+    }
 
 
 }

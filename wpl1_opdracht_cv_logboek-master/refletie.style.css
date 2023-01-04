@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik:wght@300;400;600;800&family=Russo+One&display=swap');
-
+span{
+    color: gold;
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: lightgray;
 }
 
 
@@ -14,53 +19,58 @@ body
     padding: 0;
     box-sizing: border-box;
     background-color: black;
-    color: lightgray;
+
     font-family: 'Rubik', sans-serif;
-    grid-gap: 1rem;
+
 
 
 }
 
-.header{
-    height: 100vh;
+header{
+    height: 900px;
     width: 100%;
+    background:url("fotos en achtergronden/achtergrond_ptshp.jpg") no-repeat center center/cover;
+    z-index:-5;
+}
+
+.logo{
+    width: auto;
+    height: 100px;
+
 
 }
-.navbalk{
+.hamb{
+    float: right;
+    align-items: center;
+    position: absolute;
+    padding: 20px;
     display: flex;
-    align-content: center;
     justify-content: space-between;
-    padding: 35px;
-    padding-left: 8%;
-    padding-right: 8%;
-}
-.klein_naam{
-    text-decoration: none;
-    color: white;
-}
-span{
-    color: gold;
+    width: 100%;
 }
 
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 20px;
-}
+.nav-content{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 0 25px;
 
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-nav ul li a:hover{
 
+
+}
+.nav-content a{
+    font-size: 18px;
+    margin: 0 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+.nav-content a:hover{
     color: gold;
     transition: .4s;
     cursor: pointer;
 }
-
-.contact
+.nav-content .contact
 {
     text-decoration:none;
     background-color: gold;
@@ -71,10 +81,82 @@ nav ul li a:hover{
     border-radius: 20px;
     transition: transform .4s;
 }
-.contact:hover{
+.nav-content .contact:hover{
     transform: scale(1.2);
+    color: red;
 
 }
+
+
+.logo2{
+    display: none
+}
+
+
+.streepjes{
+    display: none;
+}
+.Btn_sluiten{
+    display: none;
+}
+
+.titel {
+    margin: auto;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Russo One', sans-serif;
+    padding-bottom: 20rem;
+    padding-top: 20rem;
+
+}
+
+
+
+
+
+.reflectie {
+    margin-bottom: 10rem;
+    margin-left: 7rem;
+}
+
+.foto {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
+}
+
+.reflectie_tekst {
+    width: 640px;
+}
+
+.reflectie_links{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5rem;
+    margin: 7rem;
+
+}
+
+
+.reflectie_rechts {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5rem;
+    margin: 7rem;
+
+}
+
+
+
+
+
+
+
 /*footer text plus afbeelding met back to top knop */
 .footer
 {
@@ -93,11 +175,138 @@ footer a
     font-family: 'Rubik', sans-serif;
     color: white;
 }
-.titel{
-    position: absolute;
-    top: 20%;
-    left: 45%;
-    margin: 5px 0px 20px;
-    font-size: 70px;
-    font-family: 'Russo One', sans-serif;
+
+
+
+
+@media all and (max-width: 1200px) {
+    header{
+        height: 900px;
+        width: 100%;
+        background:url("fotos en achtergronden/45105807_1097403127085519_5292143846115770368_n.jpg") no-repeat center center/cover;
+    }
+    .titel {
+
+        text-align: left;
+        font-size: 100px;
+        padding-left: 3rem;
+        padding-top: 30rem;
+
+    }
+
+    /*hamburger menu*/
+    .logo {
+        display: none;
+    }
+
+    .logo2 {
+        display: block;
+        width: auto;
+        height: 100px;
+        position: absolute;
+
+    }
+
+    .hamb {
+        transition: 0.3s;
+        height: 100%;
+        width: 0;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: black;
+        font-weight: bolder;
+        position: fixed;
+        overflow-x: hidden;
+
+    }
+
+    .nav-content {
+
+
+        text-align: center;
+        top: 25%;
+        margin-top: 30px;
+        width: 100%;
+        display: block;
+
+
+    }
+
+    .hamb a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 25px;
+        color: gold;
+        display: block;
+        transition: 0.2s;
+
+    }
+
+    .hamb a:hover, .overlay a:focus {
+        color: red;
+    }
+
+    .hamb .Btn_sluiten {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 40px;
+        opacity: 100%;
+    }
+
+
+    .streepjes {
+        display: flex;
+        font-size: 50px;
+        cursor: pointer;
+        color: gold;
+        float: right;
+        margin: 2rem;
+
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+
+
+
+
+    .reflectie_links {
+        flex-direction: column;
+    }
+
+
+    .foto {
+
+        width: 100%;
+        max-width: 900px;
+        height: auto;
+        margin-bottom: 4rem;
+        margin-right: 2rem;
+    }
+
+    .reflectie {
+        margin-top: 15rem;
+        margin-bottom: 15rem;
+        margin-left: 4rem;
+    }
+
+    .reflectie_tekst {
+        width: 800px;
+        font-size: 25px;
+    }
+
+
+
+    .reflectie_rechts{
+        flex-direction: column-reverse;
+
+
+    }
+
 }

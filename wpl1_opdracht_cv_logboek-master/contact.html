@@ -4,62 +4,78 @@
     <meta charset="UTF-8">
     <title>contact</title>
     <link rel="stylesheet" href="contact_style.css">
+    <script defer src="cv_menu.js"></script>
 </head>
 <body>
-<div class="header">
-    <nav class="navbalk">
-        <a class="klein_naam" href="home.html"><h2 >Ilias <span>Baeten</span></h2></a>
-        <ul>
-            <li><a href="home.html">Home</a> </li>
 
-            <li><a href="info.html">Info</a> </li>
-
-            <li><a href="CV%20html.html">CV</a> </li>
-
-            <li><a href="opdrachten.html">Opdrachten</a> </li>
-
-            <li><a href="logboek.html">Logboek</a> </li>
-
-            <li><a href="refletie.html">Reflectie</a> </li>
-
-            <li><a href="ontwikeling.html">ontwikeling</a> </li>
-        </ul>
-
-    </nav>
-
-    <h2 class="cntct"><span>C</span>ontacteer me</h2>
-    <img class="contact_foto" src="fotos en achtergronden/ilias camera.jpg"></im>
+<a href="home.html"><img src="fotos en achtergronden/logo ilias.png" class="logo2"></a>
 
 
-    <section class="contact_form">
-        <div class="contact">
+<div id="myNav" class="hamb">
+    <a href="home.html"><img src="fotos en achtergronden/logo ilias.png" class="logo"></a>
 
-            <div class="boxen">
 
-                <form action="">
+    <a id="kruis_sluiten" class="Btn_sluiten" ><i class="fa-sharp fa-solid fa-xmark"></i></a>
 
-                    <label for="voorNaam">Voor naam</label>
-                    <input type="text" id="voorNaam" name="voorNaam">
+    <div class="nav-content">
 
-                    <label for="achterNaam">Achter naam</label>
-                    <input type="text" id="achterNaam" name="achterNaam">
+        <a href="home.html">Home</a>
 
-                    <label for="eMail">E-mail</label>
-                    <input type="text" id="eMail" name="eMail">
+        <a href="CV%20html.html">CV</a>
 
-                    <label  for="Bericht">Subject</label>
-                    <textarea class="bericht" id="Bericht" name="Bericht"></textarea>
+        <a href="info.html">Info</a>
 
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
-        </div>
+        <a href="logboek.html">Logboek</a>
 
-    </section>
+        <a href="competenties.html">Competenties</a>
+
+        <a href="opdrachten.html">Opdrachten</a>
+
+        <a href="refletie.html">Reflectie</a>
+
+        <a href="ontwikeling.html">ontwikeling</a>
+
 
     </div>
-
 </div>
+
+<span id="streepjes-icon" class="streepjes"  ><i class="fa-solid fa-bars"></i></span>
+
+<header>
+    <h1 class="titel"><span>C</span>ontacteer me</h1>
+</header>
+
+
+
+
+<main class="contact_box">
+
+    <img src="fotos en achtergronden/ilias camera.jpg" class="contact_foto">
+
+<div class="container">
+
+
+    <form action="">
+        <label for="Vnaam">Voor Naam</label>
+        <input type="text" id="Vnaam" name="firstname">
+
+        <label for="Anaam">Achter naam</label>
+        <input type="text" id="Anaam" name="lastname" >
+
+        <label for="Email">Email</label>
+        <input type="text" id="Email" name="lastname">
+
+        <label for="Bericht">Bericht</label>
+        <textarea class="bericht" id="Bericht" name="subject" placeholder="Type hier"></textarea>
+
+        <input type="submit" value="verstuur">
+    </form>
+</div>
+</main>
+
+
+
+
 
 
 
