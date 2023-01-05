@@ -7,8 +7,8 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        color: #383838;
-        background-color: lightgray;
+        color: lightgray;
+        background-color: black;
         font-family: 'Rubik', sans-serif;
         grid-gap: 1rem;
 
@@ -31,14 +31,14 @@
 
     .lijn_info
     {
-        border: 2px solid transparent;
+        border: 2px gold;
         border-radius: 5px;
     }
 
 
     .lijn_algemeen
     {
-        border: 5px solid transparent;
+        border: 5px gold;
         border-radius: 5px;
     }
 
@@ -54,7 +54,7 @@
         left: 0;
 
         background-color: black;
-        opacity: 0.8;
+
         font-weight: bolder;
         transition: 0.2s;
         position: fixed;
@@ -144,13 +144,13 @@
     }
 
     .profiel_foto:hover{
-        box-shadow: 0 8px 16px 0 black;
+        box-shadow:  2px 2px 10px 2px  gold;
     }
 
     .profiel_header .naam
     {
         text-shadow: 4px 4px 8px #383838;
-        color: lightgray;
+
         text-align: center;
         padding-left: 20px;
         font-size: 60px;
@@ -158,19 +158,17 @@
     }
 
 
-    h1, h2, h3, h4
-    {
-        font-family: 'Russo One', sans-serif;
-    }
+
 
 
 
     .links
     {
-        background-color: white;
+        border: 1px solid darkgoldenrod;
+        background-color: black;
         padding: 1rem;
         line-height: 2;
-        box-shadow: 2px 2px 10px grey;
+        color: #bebebe;
     }
 
 
@@ -179,10 +177,11 @@
 
     .rechts
     {
-        background-color: white;
+        border: 1px solid darkgoldenrod;
+        background-color: black;
         padding: 1rem;
         line-height: 2;
-        box-shadow: 2px 2px 10px grey;
+        color: #bebebe;
     }
 
     ul.competenties_list
@@ -196,23 +195,19 @@
         line-height: 20px;
     }
 
-    .studies h3, h5
-    {
-        font-family: 'Rubik', sans-serif;
-    }
 
     .diploma
     {
-        background-color: red;
-        color: white;
+        background-color: gold;
+        color: black;
         padding: 1px ;
         border-radius: 3px;
     }
 
     .heden
     {
-        background-color: red;
-        color: white;
+        background-color: gold;
+        color: black;
         padding: 0.2rem ;
         border-radius: 3px;
     }
@@ -220,7 +215,7 @@
 
     .datum
     {
-        color: forestgreen;
+        color: gold;
     }
 
 
@@ -248,7 +243,6 @@
         background-size: cover;
         background-position: center;
         padding: 3rem 0;
-        color: lightgray;
         text-align: center;
         line-height: 1.5;
     }
@@ -262,8 +256,8 @@
 
     .down_cv{
         text-decoration:none;
-        background-color: red;
-        color: white;
+        background-color: gold;
+        color: black;
         padding: 12px 30px;
         cursor: pointer;
         font-size: 20px;
@@ -287,10 +281,9 @@
 
 
         .links{
-            background-color: white;
+
             padding: 1rem;
             line-height: 2rem;
-            box-shadow: 2px 2px 10px grey;
             width: fit-content;
         }
 
@@ -298,11 +291,8 @@
 
         .rechts
         {
-
-            background-color: white;
             padding: 1rem;
             line-height: 2rem;
-            box-shadow: 2px 2px 10px grey;
 
         }
 
@@ -342,7 +332,7 @@
             flex-direction: column;
             margin: 0;
             align-items: center;
-
+            justify-content: center;
         }
         .profiel_header {
        display: flex;
@@ -353,26 +343,23 @@
             text-shadow: 4px 4px 8px #383838;
             color: lightgray;
             text-align: center;
-            padding-left: 0px;
+            padding-left: 0;
             font-size: 60px;
-            font-family: 'Russo One', sans-serif;
+
         }
         .profiel_foto {
             float: left;
             overflow: hidden;
-            width: 65%;
-            height: 65%;;
+
             border: 5px solid black;
             border-radius: 50%;
         }
 
         .links{
-            background-color: white;
             padding: 1rem;
             line-height: 2;
             box-shadow: 2px 2px 10px grey;
             width: auto;
-
         }
 
         .studies{
