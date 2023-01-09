@@ -11,6 +11,8 @@
         background-color: black;
         font-family: 'Rubik', sans-serif;
         grid-gap: 1rem;
+        text-decoration: none;
+        list-style: none;
 
     }
 
@@ -23,6 +25,21 @@
         grid-gap: 1rem;
     }
 
+    progress {
+
+        background-color: transparent;
+        border-radius: 10px;
+    }
+
+    progress::-webkit-progress-value {
+        background: gold;
+        border-radius: 10px;
+
+    }
+    progress::-webkit-progress-bar{
+        background-color: white;
+        border-radius: 10px;
+    }
 
     ul{
         list-style-type: none;

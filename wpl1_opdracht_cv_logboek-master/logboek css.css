@@ -153,6 +153,9 @@ footer a
     color: white;
 }
 @media all and (max-width: 1200px) {
+    main{
+        margin-bottom: 18rem;
+    }
 
     header{
         height: 900px;
